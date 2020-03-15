@@ -1,0 +1,53 @@
+.nav {
+    height: 64px;
+    background-color:  #1e2a78;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Monda&display=swap');
+#title {
+    font-family: 'Monda', sans-serif;
+    text-transform: uppercase;
+    margin-top: 14px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    
+}
+
+ul li {
+    list-style: none;
+    padding: 20px 6px;
+    text-align: center;
+    width: 80px;
+    background-color: #1e2a78;
+    
+}
+
+ul li:hover {
+    background-color: #afd5f571;
+    border-radius: 10px;
+}
+
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+  }

@@ -1,0 +1,87 @@
+.home {
+    
+    background-color: #174061;
+    box-sizing: border-box;
+    background-position: fixed;
+    height: 91vh;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, rgb(211, 17, 17), rgb(255, 255, 73));
+}
+
+.elec-img {
+    position: absolute;
+    width: 600px;
+    bottom: 5px;
+    right: 5px;
+}
+h1 {
+    color: white;
+}
+.content {
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 13%
+
+}
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+.content h1 {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content p {
+    font-size: 15px;
+    font-family: 'sans-serif';
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+button {
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    padding: 5px;
+    margin: 2px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.pay-now-btn {
+    background-color: #1e2a78;
+    color: white;
+}
+
+
+.pay-now-btn:hover {
+    background-color: #9da8f1;
+    color: black;
+}
+
+.learn-more-btn {
+    background: transparent;
+}
+
+.learn-more-btn:hover {
+    background: rgb(247, 126, 46)
+}
+.pay-bills-here {
+    color: white;
+    letter-spacing: 5px;
+    animation: text 3s 1 ease-out;
+}
+
+@keyframes text {
+    0%{
+        color: black;
+    }
+    30%{
+        letter-spacing: 25px;
+    }
+    85%{
+        letter-spacing: 8px;
+    }
+    100%{
+        letter-spacing: 5px;
+    }
+}
